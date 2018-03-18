@@ -4,10 +4,10 @@ Monitor: 前端 JS 异常监控
 ## [demo（请开启 Chrome DevTool）](http://demo.qpdiy.com/chulinyin/monitorDemo/)
 
 ### To do
-- [x] 测试该库的兼容性（Android、ios、webView、Chrome、Firefox、IE、Edge、Safari）
-- [x] 添加 level 字段，定义错误级别
-- [x] jQuery 的 ajax 回调中的错误处理（目前$.ajax() 后 then 的回调中的报错 window.onerror 无法获取到）
-- [x] 主动解析 sourceMap 文件
+- [ ] 测试该库的兼容性（Android、ios、webView、Chrome、Firefox、IE、Edge、Safari）
+- [ ] 添加 level 字段，定义错误级别
+- [ ] jQuery 的 ajax 回调中的错误处理（目前$.ajax() 后 then 的回调中的报错 window.onerror 无法获取到）
+- [ ] 主动解析 sourceMap 文件
 
 ### Getting Started
 > 该库之前的错误代码无法被监听，因此该库最好在所有 js 引入之前加载并初始化。
